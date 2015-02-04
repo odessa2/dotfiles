@@ -182,6 +182,10 @@ bindsym XF86AudioMute exec pactl set-sink-mute 1 toggle # mute sound
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
 
+# nemo
+
+bindsym $mod+n exec nemo --no-desktop
+
 for_window [class="^.*"] border pixel 3
 
 #gaps
